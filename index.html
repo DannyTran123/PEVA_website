@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Whole-Body-Conditioned Ego-Centric Video Prediction</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,21 +52,36 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Whole-Body-Conditioned Ego-Centric Video Prediction</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://yutongbai.com/" target="_blank">Yutong Bai<sup>1</sup></a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://dannytran123.github.io/" target="_blank">Danny Tran<sup>1</sup></a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://www.amirbar.net/" target="_blank">Amir Bar<sup>2</sup></a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank">Trevor Darrell<sup>1</sup></a>
+                  </span>
+                  <span class="author-block">
+                    <a href="http://yann.lecun.com/" target="_blank">Yann LeCun<sup>2</sup></a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://people.eecs.berkeley.edu/~malik/" target="_blank">Jitendra Malik<sup>1</sup></a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>In Submission</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>UC Berkeley (BAIR), </span>
+                    <span class="author-block"><sup>2</sup>FAIR at Meta</span>
+                    <!-- <span class="author-block">Institution Name<br>In Submission</span> -->
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="is-size-5 has-text-centered">
+                    <span class="publication-cvpr"><strong>In Submission</strong></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -158,105 +173,61 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+<!-- Atomic Actions-->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Following Atomic Actions</h2>
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/test.mp4"
+        type="video/mp4">
+      </video>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Video Generation Examples of different atomic actions specified by 3D-body poses.
       </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- Atomic Actions-->
 
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+<!-- Long Video Generation-->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Long Video Generation</h2>
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/test.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Generation Over Long-Horizons, including 16-second video generation examples. PEVA generates coherent 16-second rollouts conditioned on full-body motion.
+      </h2>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- Long Video Generation-->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
+<!-- Planning with Counterfactuals-->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Planning with Multiple Action Candidates</h2>
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/test.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        We explore PEVA's ability to serve as a world model by demonstrating a planning example by simulating multiple action candidates using PEVA and scoring them based on their perceptual similarity to the goal, as measured by LPIPS (Zhang et al., 2018). PEVA enables us to rule out action sequences that leads us to the sink in the top row, and outdoors in the second row. PEVA allows us to find a reasonable sequence of actions to open the refridgerator in the third row.
+      </h2>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
-
-
-
-
+<!-- Planning with Counterfactuals-->
 
 
 <!-- Paper poster -->
